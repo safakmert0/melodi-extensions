@@ -1,0 +1,25 @@
+{
+  "name": "Melodi Resmi Eklenti Deposu",
+  "apiVersion": 1,
+  "updatedAt": "2026-08-22T00:00:00Z",
+  "extensions": [
+    {
+      "id": "melodi.public-ytdlp",
+      "name": "Melodi Public Backend",
+      "kind": "backend",
+      "version": "1.0.0",
+      "author": "melodi-community",
+      "description": "Herkese açık yt-dlp arama ve indirme motoru. Kurulumdan sonra sunucu adresi girmenize gerek kalmaz.",
+      "url": "extensions/melodi-public-ytdlp.json"
+    },
+    {
+      "id": "melodi.hifi-lossless",
+      "name": "Hi-Fi Lossless",
+      "kind": "hifi",
+      "version": "1.0.0",
+      "author": "melodi-community",
+      "description": "Sunucu tarafında FLAC'a çevrilmiş kayıpsız akış ve indirme.",
+      "url": "extensions/melodi-hifi-lossless.json"
+    }
+  ]
+}

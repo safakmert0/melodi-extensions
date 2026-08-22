@@ -1,0 +1,12 @@
+{
+  "id": "melodi.public-ytdlp",
+  "name": "Melodi Public Backend",
+  "kind": "backend",
+  "version": "1.0.0",
+  "author": "melodi-community",
+  "description": "Herkese açık yt-dlp arama ve indirme motoru.",
+  "baseUrl": "https://ornek-ytdlp-sunucusu.example.com",
+  "homepage": "https://github.com/safakmert0/melodi-extensions",
+  "minAppVersion": "4.2.0",
+  "capabilities": ["search", "playback", "downloads"]
+}
