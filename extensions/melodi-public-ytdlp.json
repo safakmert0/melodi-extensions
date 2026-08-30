@@ -2,10 +2,10 @@
   "id": "melodi.public-ytdlp",
   "name": "Melodi Public Backend",
   "kind": "backend",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "melodi-community",
-  "description": "Herkese açık yt-dlp arama ve indirme motoru.",
-  "baseUrl": "https://ornek-ytdlp-sunucusu.example.com",
+  "description": "Herkese açık yt-dlp arama, akış ve indirme motoru. IP engelli cihazlarda bile çalma sunucu üzerinden yapılır.",
+  "baseUrl": "https://butterfly-crawford-parenting-spotlight.trycloudflare.com",
   "homepage": "https://github.com/safakmert0/melodi-extensions",
   "minAppVersion": "4.2.0",
   "capabilities": ["search", "playback", "downloads"]

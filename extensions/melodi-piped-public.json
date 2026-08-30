@@ -1,0 +1,13 @@
+{
+  "id": "melodi.piped-public",
+  "name": "Piped Public (Topluluk)",
+  "kind": "backend",
+  "protocol": "piped",
+  "version": "1.0.0",
+  "author": "melodi-community",
+  "description": "Herkese açık Piped örneği üzerinden YouTube yedeği. Kendi sunucunuz yoksa arama ve akış için kullanılır.",
+  "baseUrl": "https://api.piped.private.coffee",
+  "homepage": "https://github.com/safakmert0/melodi-extensions",
+  "minAppVersion": "4.2.0",
+  "capabilities": ["search", "playback"]
+}

@@ -4,7 +4,7 @@
   "kind": "hifi",
   "version": "1.0.0",
   "author": "melodi-community",
-  "description": "Sunucu tarafında FLAC'a çevrilmiş kayıpsız akış ve indirme.",
+  "description": "FLAC indirme yapabilen kayıpsız eklenti.",
   "baseUrl": "https://butterfly-crawford-parenting-spotlight.trycloudflare.com",
   "homepage": "https://github.com/safakmert0/melodi-extensions",
   "minAppVersion": "4.2.0",

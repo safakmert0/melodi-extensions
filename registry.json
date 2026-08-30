@@ -7,10 +7,20 @@
       "id": "melodi.public-ytdlp",
       "name": "Melodi Public Backend",
       "kind": "backend",
+      "version": "1.1.0",
+      "author": "melodi-community",
+      "description": "Herkese açık yt-dlp arama, akış ve indirme motoru. IP engelli cihazlarda bile çalma sunucu üzerinden yapılır.",
+      "url": "extensions/melodi-public-ytdlp.json"
+    },
+    {
+      "id": "melodi.piped-public",
+      "name": "Piped Public (Topluluk)",
+      "kind": "backend",
+      "protocol": "piped",
       "version": "1.0.0",
       "author": "melodi-community",
-      "description": "Herkese açık yt-dlp arama ve indirme motoru. Kurulumdan sonra sunucu adresi girmenize gerek kalmaz.",
-      "url": "extensions/melodi-public-ytdlp.json"
+      "description": "Herkese açık Piped örneği üzerinden YouTube yedeği. Kendi sunucunuz yoksa arama ve akış için kullanılır.",
+      "url": "extensions/melodi-piped-public.json"
     },
     {
       "id": "melodi.hifi-lossless",
@@ -18,7 +28,7 @@
       "kind": "hifi",
       "version": "1.0.0",
       "author": "melodi-community",
-      "description": "Sunucu tarafında FLAC'a çevrilmiş kayıpsız akış ve indirme.",
+      "description": "FLAC indirme yapabilen kayıpsız eklenti.",
       "url": "extensions/melodi-hifi-lossless.json"
     }
   ]
