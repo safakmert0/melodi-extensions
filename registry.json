@@ -1,7 +1,8 @@
 {
   "name": "Melodi Resmi Eklenti Deposu",
   "apiVersion": 1,
-  "updatedAt": "2026-08-22T00:00:00Z",
+  "updatedAt": "2026-09-17T00:00:00Z",
+  "minAppVersion": "4.2.0",
   "extensions": [
     {
       "id": "melodi.public-ytdlp",
@@ -10,7 +11,18 @@
       "version": "1.1.0",
       "author": "melodi-community",
       "description": "Herkese açık yt-dlp arama, akış ve indirme motoru. IP engelli cihazlarda bile çalma sunucu üzerinden yapılır.",
-      "url": "extensions/melodi-public-ytdlp.json"
+      "url": "extensions/melodi-public-ytdlp.json",
+      "homepage": "https://github.com/safakmert0/melodi-extensions",
+      "priority": 10,
+      "checksum": "sha256:8488db432e20f24fa1aa15b58da5c5aba80179f5a9a5afa4bff09997bc4c8323",
+      "tags": [
+        "youtube",
+        "ytdlp",
+        "arama",
+        "akis",
+        "indirme"
+      ],
+      "featured": true
     },
     {
       "id": "melodi.piped-public",
@@ -20,7 +32,17 @@
       "version": "1.0.0",
       "author": "melodi-community",
       "description": "Herkese açık Piped örneği üzerinden YouTube yedeği. Kendi sunucunuz yoksa arama ve akış için kullanılır.",
-      "url": "extensions/melodi-piped-public.json"
+      "url": "extensions/melodi-piped-public.json",
+      "homepage": "https://github.com/safakmert0/melodi-extensions",
+      "priority": 20,
+      "checksum": "sha256:49a903a5f92a4254767722f49014dd49bf9e003d9ae348ac444bd7524077dfbf",
+      "tags": [
+        "youtube",
+        "piped",
+        "yedek",
+        "akis"
+      ],
+      "featured": false
     },
     {
       "id": "melodi.hifi-lossless",
@@ -29,7 +51,17 @@
       "version": "1.0.0",
       "author": "melodi-community",
       "description": "FLAC indirme yapabilen kayıpsız eklenti.",
-      "url": "extensions/melodi-hifi-lossless.json"
+      "url": "extensions/melodi-hifi-lossless.json",
+      "homepage": "https://github.com/safakmert0/melodi-extensions",
+      "priority": 10,
+      "checksum": "sha256:8009ee23f0b2faef3299a6d9e0ed58f0665432b75a8b452be3310178ba1b5923",
+      "tags": [
+        "flac",
+        "lossless",
+        "hifi",
+        "spotify"
+      ],
+      "featured": false
     }
   ]
 }

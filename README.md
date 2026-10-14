@@ -31,6 +31,7 @@ melodi-extensions/
   "name": "Depo adı",
   "apiVersion": 1,
   "updatedAt": "ISO-8601 tarih",
+  "minAppVersion": "4.2.0",
   "extensions": [
     {
       "id": "saglayici.kimligi",
@@ -39,13 +40,21 @@ melodi-extensions/
       "version": "1.0.0",
       "author": "yazar",
       "description": "Kısa açıklama",
-      "url": "extensions/manifest.json"
+      "url": "extensions/manifest.json",
+      "homepage": "https://…",
+      "priority": 10,
+      "tags": ["youtube", "akis"],
+      "featured": false,
+      "checksum": "sha256:…"
     }
   ]
 }
 ```
 
 `url` alanı mutlak (`https://…`) veya depoya göreli yol olabilir.
+`priority` küçük sayı önce denenir (aynı türde sıralama). `checksum`
+manifest dosyasının `sha256:` önekli özetidir; uygulama indirince doğrular.
+`tags` arama/filtre için anahtar kelimeler, `featured` mağazada öne çıkarır.
 
 ## Manifest şeması
 
